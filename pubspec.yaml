@@ -1,0 +1,29 @@
+name: side_scroll_web
+description: A Very Good Project created by Very Good CLI.
+version: 1.0.0+1
+publish_to: none
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  flutter_localizations:
+    sdk: flutter
+  font_awesome_flutter: ^9.2.0
+  google_fonts: ^2.3.1
+  intl: ^0.17.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  very_good_analysis: ^2.3.0
+
+flutter:
+  uses-material-design: true
+  generate: true
+
+  assets:
+    - assets/images/
+
