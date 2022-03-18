@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:side_scroll_web/common/widgets/custom_side_scroller.dart';
-import 'package:side_scroll_web/sections/resume_section.dart';
+import 'package:side_scroll_web/sections/get_in_touch_section.dart.dart';
 
 class HomeScreen extends StatefulWidget {
   const HomeScreen({Key? key}) : super(key: key);
@@ -63,13 +63,21 @@ class HomeScreenBody extends StatelessWidget {
           //   width: screenSize.width * 0.1,
           // ),
           // resume section
+          // Container(
+          //   padding: const EdgeInsets.symmetric(
+          //     horizontal: 50,
+          //     vertical: 50,
+          //   ),
+          //   width: screenSize.width - 100,
+          //   child: const ResumeSection(),
+          // ),
           Container(
             padding: const EdgeInsets.symmetric(
               horizontal: 50,
               vertical: 50,
             ),
             width: screenSize.width - 100,
-            child: const ResumeSection(),
+            child: const GetInTouchSection(),
           ),
         ],
       ),

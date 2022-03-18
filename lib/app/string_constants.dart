@@ -21,4 +21,15 @@ class StringConstants {
     'eager',
     ' learner with distinguished career '
   ];
+  static const getInTouch = 'Get In Touch';
+  static const getInTouchDescription = [
+    'Interested in working ',
+    'together',
+    '?\n',
+    'Use the details below to ',
+    'connect',
+  ];
+  static const facebook = 'Facebook';
+  static const twitter = 'Twitter';
+  static const linkedIn = 'LinkedIn';
 }
